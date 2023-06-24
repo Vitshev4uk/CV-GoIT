@@ -28,6 +28,7 @@ a:hover, a:focus {
     padding: 60px 60px 10px 60px ;
     background: linear-gradient(13deg, rgba(206, 50, 72, 0.9) 0%, rgba(255, 156, 107, 0.9) 57%);
     color:darkslategray;
+    display: flex;
 }
 .main {
     background-color:azure;
@@ -66,4 +67,11 @@ a:hover, a:focus {
 .descText {
     margin: 10px 0 10px 0;
     /* max-width: 500px; */
+}
+.img {
+    display: block;
+    width: 150px;
+    /* border: 1px solid black; */
+    border-radius: 8%;
+    margin: 0 60px 60px;
 }
