@@ -1,0 +1,14 @@
+
+.header {
+    padding: 60px 60px 10px 60px ;
+}
+.titleName {
+    font-size: 40px;
+}
+.workName {
+    font-size: 23px;
+}
+.main {
+    display: flex;
+    padding: 10px 60px 60px 60px;
+}
