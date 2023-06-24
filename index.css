@@ -1,14 +1,69 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    /* max-width: 1200px; */
+    margin: auto;
+}
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    font-size: 20px;
+}
 
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #ff7512;
+    transition: color 250ms ease;
+    font-size: 20px;
+}
+a:hover, a:focus {
+    color: darkslategray;
+}
 .header {
     padding: 60px 60px 10px 60px ;
+    background: linear-gradient(13deg, rgba(206, 50, 72, 0.9) 0%, rgba(255, 156, 107, 0.9) 57%);
+    color:darkslategray;
+}
+.main {
+    background-color:azure;
 }
 .titleName {
-    font-size: 40px;
+    font-size: 50px;
+    margin: 30px ;
 }
 .workName {
-    font-size: 23px;
+    font-size: 30px;
+    margin: 0 0 30px 30px;
 }
 .main {
     display: flex;
-    padding: 10px 60px 60px 60px;
+    column-gap: 200px;
+    padding: 60px 60px 60px 60px;
+}
+.titleInfo {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: darkslategray;
+}
+.mainInfoList {
+    margin-bottom: 30px;
+}
+.infoItem {
+    margin: 0 0 12px 20px;
+}
+.summaryContainer {
+    margin-bottom: 20px;
+    /* max-width: 500px; */
+}
+.roleText {
+    font-weight: 700;
+}
+.descText {
+    margin: 10px 0 10px 0;
+    /* max-width: 500px; */
 }
